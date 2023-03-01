@@ -1,0 +1,47 @@
+.container {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.description, .watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description h1, .description h2 {
+    color: white;
+    font-size: large;
+}
+
+.time {
+    color: white;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#start, #stop, #reset {
+    margin: 15px 15px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+}
+
+#start:hover, #stop:hover, #reset:hover {
+    background-color: grey;
+}
+
