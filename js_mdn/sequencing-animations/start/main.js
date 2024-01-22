@@ -36,10 +36,11 @@ const alice3 = document.querySelector("#alice3");
 // })
 
 
-async function aliceAnimation() {
-  await alice1.animate(aliceTumbling, aliceTiming).finished;
-  await alice2.animate(aliceTumbling, aliceTiming).finished;
-  alice3.animate(aliceTumbling, aliceTiming);
-}
+// Third version using await and async
+// async function aliceAnimation() {
+//   await alice1.animate(aliceTumbling, aliceTiming).finished;
+//   await alice2.animate(aliceTumbling, aliceTiming).finished;
+//   alice3.animate(aliceTumbling, aliceTiming);
+// }
 
-aliceAnimation();
+// aliceAnimation();
